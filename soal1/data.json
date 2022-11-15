@@ -1,0 +1,22 @@
+{
+    "employee": [
+      {
+        "name": "Employee 1",
+        "gender": "male",
+        "age": "20",
+        "permanen": true
+      },
+      {
+        "name": "Employee 2",
+        "gender": "female",
+        "age": "25",
+        "permanen": true
+      },
+      {
+        "name": "Employee 3",
+        "gender": "male",
+        "age": "33",
+        "permanen": true
+      }
+    ]
+  }

@@ -1,0 +1,42 @@
+{
+    "invoice":  [
+        {
+            "item1": [
+                {
+                    "item": "IDM RAMOS SUPER 5KG",
+                    "harga": "59.900",
+                    "qty": "1",
+                    "discount": "4000"
+                }
+            ]
+        },
+        {
+            "item2": [
+                {
+                    "item": "SO KLIN SOFTERGNT800",
+                    "harga": "14.700",
+                    "qty": "1",
+                    "discount": "2.200"
+                }
+            ]
+        },
+        {
+            "item3": [
+                {
+                    "item": "PLASTIK BSR",
+                    "harga": "3",
+                    "qty": "3",
+                    "discount": "3"
+                }
+            ]
+        },
+        {
+            "total": [
+                {
+                    "harga": "76.300",
+                    "sumdiscount": "6.200"
+                }
+            ]
+        }
+    ]
+}
