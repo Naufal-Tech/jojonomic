@@ -1,15 +1,20 @@
-let arr = [
-    {itemType:"organic basket", listItemBelanja:"Food"},
-    {itemType:"other basket", listItemBelanja:"Cleaner"},
-    {itemType:"organic basket", listItemBelanja:"Drink"},
-    {itemType:"other basket", listItemBelanja:"Tools"}
-];
+const obj = {
+  'Food': [' sosis', ' nugget'],
+  'Drink': [' cola', ' fanta'],
+  'Cleaner': ['sunlight', ' rinso'],
+  'Tools': [' obeng', ' paku', ' gergaji']
+};
 
-const fun = (ar)=>{
-  let temp ={}
-for(e of ar){
-  !temp[e.itemType] ? temp[e.itemType]=[e] : temp[e.itemType].push(e)
+let organicBasket = []
+let otherBasket = []
+
+for (let item in obj) {
+  if (item === 'Food' || item === 'Drink') {
+    organicBasket.push(obj[item])
+  } else {
+    otherBasket.push(obj[item])
+  }
 }
-  return temp
-}
-console.log(fun(arr))
+
+console.log(`organicBasket : ${organicBasket}`);
+console.log(`otherBasket : ${otherBasket}`);
